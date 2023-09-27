@@ -22,7 +22,7 @@ img{
 }
 
 #logo{
-    width:100px;
+    width:200px;
 }
 
 #profile-picture{
@@ -60,5 +60,11 @@ ul.contact-information{
 
 .contact-information li strong{
     margin: 0 0.2em;
+}
+
+#linkedIn-logo {
+    max-width: 40px;
+    border-radius: 100%;
+    margin: 0em;
 }
 
