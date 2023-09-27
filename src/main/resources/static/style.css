@@ -60,11 +60,10 @@ ul.contact-information{
 
 .contact-information li strong{
     margin: 0 0.2em;
+    text-align: left;
 }
 
-#linkedIn-logo {
-    max-width: 40px;
-    border-radius: 100%;
-    margin: 0em;
+.contact-icon {
+    width: 24px;
 }
 
