@@ -3,9 +3,8 @@
 *{box-sizing: border-box}
 h1,h2,h3,h4,h5,h6{
     font-family: 'Roboto', sans-serif;
-
-
 }
+
 html{
     font-family: 'Playfair Display', serif;
     background: #141234;
@@ -18,8 +17,17 @@ body{
     padding: 0 1em;
 }
 
+img{
+    max-width: 100%;
+}
+
 #logo{
     width:100px;
+}
+
+#profile-picture{
+    max-width: 280px;
+    border-radius: 100%;
 }
 
 a{
@@ -40,4 +48,17 @@ nav a{
 
 }
 
+ul.contact-information{
+    padding-left: 1em;
+}
+
+.contact-information li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.4em;
+}
+
+.contact-information li strong{
+    margin: 0 0.2em;
+}
 
