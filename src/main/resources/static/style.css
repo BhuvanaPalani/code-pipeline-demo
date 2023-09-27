@@ -40,11 +40,4 @@ nav a{
 
 }
 
-.right {
-    position: absolute;
-    right: 0px;
-    width: 300px;
-    padding: 0 1em;
-    color: #31b7c5;
-    font-family: 'Playfair Display', serif;
-}
+
