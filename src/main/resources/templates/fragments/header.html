@@ -5,7 +5,7 @@
   <title>Bhuvaneshwari Palaniappan Portfolio</title>
 
 
-  <link rel="stylesheet" th:href="'/style.css?v=' + ${#dates.format(#dates.createNow(), 'dd MMM yyyy HH:MM')}">
+  <link rel="stylesheet" th:href="'/style.css?v=' + ${#dates.format(#dates.createNow(), 'yyMMddHHmm')}">
 
 
   <link rel="shortcut icon" href="/logo.png" type="image/x-icon">
@@ -13,6 +13,7 @@
 <body>
 <header>
   <img src="/logo.png" alt="My Logo" id="logo">
+
 <nav>
   <a href="/">Home</a>
   <a href="/Projects">Projects</a>
