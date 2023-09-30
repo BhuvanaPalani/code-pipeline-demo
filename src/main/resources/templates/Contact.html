@@ -1,7 +1,12 @@
 <div th:replace="fragments/header" />
 
-<h2>Contact Information</h2>
+<h2>Personal Detail</h2>
+<div class="contact-container">
+  <h2 class="contact-heading">Contact Information</h2>
+  <h2 class="contact-heading">Location</h2>
+</div>
 <p>Stay In Touch!!!</p>
+<div class="contact-container">
 <ul class="contact-information">
 
   <li>
@@ -20,13 +25,16 @@
     <img src="/Github.png" alt="Github logo" class="contact-icon">
     <strong>GitHub-</strong> <a href="https://github.com/BhuvanaPalani" target="_blank">github.com/BhuvanaPalani</a>
   </li>
-
 </ul>
 
-<h2>Location</h2>
+  <li class="location-container">
+  <div class="location">
 <span class="material-icons">location_on</span>
-<strong>Home-</strong> Göteborg-41870 , Sweden.
+<strong>Göteborg-41870 , Sweden.</strong>
 
+</div>
+  </li>
+</div>
 
 </body>
 </html>

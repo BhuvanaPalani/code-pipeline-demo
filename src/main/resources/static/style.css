@@ -9,7 +9,7 @@ html{
     font-family: 'Playfair Display', serif;
     background: #141234;
     padding: 1em;
-    color: #31b7c5;
+    color: #FFFFFF;
 }
 body{
     max-width: 900px;
@@ -31,7 +31,7 @@ img{
 }
 
 a{
-    color: #31b7c5;
+    color: #FFFFFF;
 }
 
 header{
@@ -43,13 +43,85 @@ header{
 nav a{
     padding: 0 1em;
     font-family: 'Playfair Display', serif;
-    color: #31b7c5;
+    color: #FFFFFF;
     text-decoration: none;
 
 }
 
 ul.contact-information{
     padding-left: 1em;
+    width: 50%;
+
+}
+
+.contact-information li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.4em;
+
+}
+
+.contact-information li strong{
+    margin: 0 0.2em;
+}
+
+
+.contact-icon {
+    width: 24px;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2em;
+    margin-left:8em;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.4em;
+}
+
+.contact-heading {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.4em;
+    margin-right: 3em;
+}
+
+
+.location-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 4em;
+    justify-content: space-between;
+    margin-right: 1em;
+}
+
+.download-button {
+    background-color: black;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 40px;
+    cursor: pointer;
+}
+
+.photo-container {
+    display: flex;
+    align-items: center;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
 }
 
 .contact-information li{
@@ -60,10 +132,35 @@ ul.contact-information{
 
 .contact-information li strong{
     margin: 0 0.2em;
-    text-align: left;
 }
 
-.contact-icon {
-    width: 24px;
+.row{
+    display: flex;
 }
+
+.column {
+    padding-right: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.row{
+    flex-direction: column;
+}
+
+@media screen and (max-width: 900px){
+    #profile-picture{
+        max-width: 140px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    #profile-picture{
+        max-width: 100%;
+    }
+
+
+}
+
 
