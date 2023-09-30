@@ -23,4 +23,9 @@ public class HomeController {
     public String getContact(){
         return "Contact";
     }
+
+    @GetMapping("/Skills")
+    public String getSkills(){
+        return "Skills";
+    }
 }

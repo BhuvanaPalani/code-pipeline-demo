@@ -5,6 +5,10 @@ h1,h2,h3,h4,h5,h6{
     font-family: 'Roboto', sans-serif;
 }
 
+h1{
+    line-height: 1.5em;
+}
+
 html{
     font-family: 'Playfair Display', serif;
     background: #141234;
@@ -15,6 +19,8 @@ body{
     max-width: 900px;
     margin: 2em 0 auto;
     padding: 0 1em;
+    line-height: 1.4em;
+    letter-spacing: 0.4px;
 }
 
 img{
@@ -22,7 +28,7 @@ img{
 }
 
 #logo{
-    width:200px;
+    width:100px;
 }
 
 #profile-picture{
@@ -145,10 +151,6 @@ ul.contact-information{
     justify-content: center;
 }
 
-.row{
-    flex-direction: column;
-}
-
 @media screen and (max-width: 900px){
     #profile-picture{
         max-width: 140px;
@@ -160,7 +162,9 @@ ul.contact-information{
         max-width: 100%;
     }
 
-
+    .row{
+        flex-direction: column;
+    }
 }
 
 
