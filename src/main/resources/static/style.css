@@ -165,6 +165,16 @@ ul.contact-information{
     .row{
         flex-direction: column;
     }
+
+    .languages-list {
+        list-style: none;
+        padding: 0;
+    }
+
+    .languages-list li {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
 }
 
 
